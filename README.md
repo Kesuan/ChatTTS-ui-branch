@@ -196,6 +196,7 @@ GitHub下载地址: https://github.com/jianchang512/ChatTTS-ui/releases/download
 5. 安装依赖 `pip3 install -r requirements.txt`
 6. 安装torch `pip3 install torch==2.2.0 torchaudio==2.2.0`
 7. 执行 `python3 app.py` 启动，将自动打开浏览器窗口，默认地址 `http://127.0.0.1:9966`  (注意：默认从 modelscope 魔塔下载模型，不可使用代理下载，请关闭代理)
+8. 可选：执行 `export=mps` 打开实验功能，使用 mps 加速 pytorch （仅限M系芯片）
 
 
 ## Windows源码部署
